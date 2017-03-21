@@ -1,0 +1,64 @@
+body {
+    background-color: #e5e5e5;
+    font-family: Belleza;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+section {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-img {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+nav {
+    display: block;
+}
+
+    nav h2 {
+        float: left;
+        margin-left: 20px;
+    }
+
+    nav ul {
+        margin-left: 25%;
+        list-style-type: none;
+        float: left;
+    }
+
+        nav ul li {
+            font-size: 24px;
+            margin: 10px;
+            display: inline;
+            text-transform: uppercase
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #272727;
+            }
+
+                nav ul li a:hover {
+                    animation-name: example;
+                    animation-duration: 300ms;
+                    animation-timing-function: ease-in;
+                    border-bottom: 2px solid orange
+                }
+
+@keyframes example {
+    0% {
+        border-bottom: 2px solid orange;
+        margin-bottom: -50px;
+    }
+
+    100% {
+        border-bottom: 2px solid orange;
+        margin-bottom: 0;
+    }
+}
